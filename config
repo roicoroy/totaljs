@@ -1,0 +1,21 @@
+name                      : CMS + User
+version                   : 1.0
+author                    : Ricardo Bento
+
+// A relative URL address into the eshop management
+manager-url               : /$manager
+
+// Hidden super admin in the form username:password
+manager-superadmin        : admin:admin
+
+
+// Gmail SMTP settings
+mail.smtp                : smtp.gmail.com
+mail.smtp.options        : {"port":465,"secure":true,"user":"richiescotland@gmail.com","password":"Alvaresflorence1","rejectUnauthorized":true}
+
+// Image convertor for resizing of pictures
+// Default image converter: im = ImageMagick, gm = GraphicsMagick
+default-image-converter   : gm
+
+// Default theme
+default-theme             : default
